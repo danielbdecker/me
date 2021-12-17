@@ -1,0 +1,148 @@
+/*Daniel Decker 12/17/21*/
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("../images/img/white\ triangle.jpg")
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategrey;
+    transition: all;
+    transition-duration: 400ms;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    font-size:1em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    transition-duration: 500ms;
+    background-color: grey;
+}
+
+.tableauPlaceholder {
+    border: solid 2px lightgray;
+
+}
+
+.graph1 {
+    margin: auto;
+    width: 75%;
+    padding: 50px;
+    max-height:15%;
+    object-fit:contain;
+}
+
+.graph2 {
+    margin: auto;
+    width: 75%;
+    padding: 50px;
+    max-height:15%;
+    object-fit:contain;
+}
+
+.graph3 {
+    margin: auto;
+    width: 75%;
+    padding: 50px;
+    max-height:15%;
+    object-fit:contain;
+}
+
+.graph4 {
+    margin: auto;
+    width: 75%;
+    padding: 50px;
+    max-height:15%;
+    object-fit:contain;
+}
+
+.copyright {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:grey;
+    font-style:italic;
+    text-align:center;
+}
+
+.links {
+    font-size:1em;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    margin: 50px;
+}
+
+.LinkedIn {
+    border-radius: 25px;
+    text-align: center;
+    background-color: #0077B5;
+}
+
+.Facebook {
+    border-radius: 25px;
+    text-align: center;
+    background-color: #3B5998;
+}
+
+.Instagram {
+    border-radius: 25px;
+    text-align: center;
+    background-color: #8a3ab9;
+}
+
+a {
+    text-decoration:none;
+    font-size:2vw;
+    color:whitesmoke;
+}
+div.tab-link {
+    text-align:center;
+}
+
+a.other-tab-link {
+    font-size:1vw;
+    color:darkslategrey;
+}
+
+/*
+.graph1 {
+    float:left;
+    width:50%;
+}
+
+.graph2 {
+    float:right;
+    width:50%;
+}
+
+.graph3 {
+    float:left;
+    width:50%;
+}
+
+.graph4 {
+    float:right;
+    width:50%;
+}
+*/
+
+
+

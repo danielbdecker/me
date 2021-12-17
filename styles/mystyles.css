@@ -1,0 +1,75 @@
+/*Daniel Decker 12/17/21*/
+
+body {
+    background-image: url("../images/img/white\ triangle.jpg")
+}
+
+.nav-item{
+    transition:all;
+}
+
+.nav-item:hover {
+    text-decoration:underline;
+}
+
+.post-preview {
+    border-style: solid;
+    border-color: grey;
+    padding: 40px;
+    border-width: 3px;
+    background: rgba(76, 126, 107, 0.25);   
+}
+
+h2 {
+    color:darkslategrey;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: square;
+}
+
+ol {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+a:hover {
+    color: indigo;
+    transition-duration:400ms;
+}
+
+img {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+*/
+
+/*a {
+    font-size: 36pt;
+    color:rgb(4, 199, 183);
+    border-style: solid;
+    text-decoration: none;
+    border-width: 2px;
+    border-color:rgb(4, 199, 183);
+    padding: 8px;
+    transition:300ms;
+}
+
+a:hover {
+    color:azure;
+    border-width: 3px;
+    border-color: azure;
+    padding: 8px;
+}*/
